@@ -16,40 +16,38 @@ const codes = [
   {
     name: "Ecommerce Website",
     image: p1,
-    link: "https://github.com/username/portfolio",
   },
   {
     name: "Tomato Food Delivery Website",
     image: p2,
-    link: "https://github.com/username/portfolio",
+    link: "https://drive.google.com/file/d/1d92-_NEy65tXrWbsjgXjgireV2RIS5HR/view",
   },
   {
     name: "Streamify Chatting Application",
     image: p3,
-    link: "https://github.com/username/portfolio",
+    link: "https://github.com/Ajay-css/streamify-ajay/tree/main/client/public",
   },
   {
     name: "Students Tracker Website",
     image: p4,
-    link: "https://github.com/username/portfolio",
   },
   {
     name: "Green Trendz Ecommerce Website",
     image: p5,
-    link: "https://github.com/username/portfolio",
+    link: "https://drive.google.com/drive/folders/10W9ZlOejCtjp6bxguuq0X_CbMtX9m4AS?usp=sharing",
   },
   {
     name: "Notes Application",
     image: p6,
   },
   {
-    name: "Tomato Food Delivery Website",
+    name: "Sitara Personal Virtual Assistant",
     image: p7,
   },
   {
     name: "Job Portal Application",
     image: p8,
-    link: "https://github.com/username/portfolio",
+    link: "https://drive.google.com/file/d/1Vc_GeJAjTXmLfXpERgs9bDrZQU1SLvwv/view",
   },
   {
     name: "Snake Game",

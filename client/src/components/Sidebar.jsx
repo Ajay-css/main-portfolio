@@ -1,11 +1,12 @@
 import React from "react";
-import { Home, User, Code, Folder, FileText, Mail } from "lucide-react";
+import { Home, User, Code, Folder, FileText, Mail, Zap } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   const navItems = [
     { name: "Home", icon: <Home size={18} /> },
     { name: "About", icon: <User size={18} /> },
+    { name: "Skills", icon: <Zap size={18} /> },
     { name: "Projects", icon: <Code size={18} /> },
     { name: "Codes", icon: <Folder size={18} /> },
     { name: "Assets", icon: <FileText size={18} /> },

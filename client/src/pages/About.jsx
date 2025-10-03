@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
-import profileImage from "../assets/image.webp"; // replace with your image
+import profileImage from "../assets/img2.webp"; // replace with your image
 import { Code, Cpu, Database } from "lucide-react";
 
 const About = () => {
@@ -96,14 +96,14 @@ const About = () => {
             whileInView={{ y: 0, opacity: 1, transition: { duration: 0.7 } }}
             viewport={{ once: true }}
           >
-            <NavLink to="/projects">
+            <NavLink to="/skills">
               <motion.button
                 className="px-6 py-3 bg-purple-700 rounded-full text-white font-semibold shadow-lg"
                 whileHover={{ scale: 1.1, backgroundColor: "#7e22ce" }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
               >
-                Go To Projects
+                Go To Skills
               </motion.button>
             </NavLink>
           </motion.div>
