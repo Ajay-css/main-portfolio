@@ -78,10 +78,10 @@ const projects = [
   },
   {
     title: "Online Code Editor",
-    description: "Real Time online code editor for frontend developers",
-    tech: ["HTML", "Css", "Javascript"],
+    description: "Real Time online code editor for Develpers to Support Many Prgramming Language",
+    tech: ["React", "Node.js", "Express.js", "MongoDB"],
     image: p10,
-    link: "https://codepen-ajay.netlify.app",
+    link: "https://xavierside.vercel.app",
   },
 ];
 
@@ -127,14 +127,15 @@ const Projects = () => {
                   visible: { y: 0, opacity: 1, transition: { duration: 0.5 } },
                 }}
               >
-                {/* Project Title + Image */}
-                <td className="py-2 px-3 flex items-center gap-2">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-10 h-10 object-cover rounded"
-                  />
-                  <span className="hidden sm:block font-medium">{project.title}</span>
+                {/* Project Image only */}
+                <td className="py-3 px-3">
+                  <div className="w-[130px] h-[70px] overflow-hidden shadow-lg">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    />
+                  </div>
                 </td>
 
                 {/* Description */}

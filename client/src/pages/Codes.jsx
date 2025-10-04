@@ -79,6 +79,7 @@ const codes = [
     description: "Real Time online code editor for frontend developers",
     tech: ["HTML", "Css", "Javascript"],
     image: p10,
+    link: "https://github.com/Ajay-css/xavier-s-ide",
   },
 ];
 
