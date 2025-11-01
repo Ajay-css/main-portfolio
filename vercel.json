@@ -1,0 +1,15 @@
+{
+  "builds": [
+    { "src": "client/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    {
+      "src": "/(robots\\.txt|sitemap\\.xml)",
+      "dest": "/client/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
