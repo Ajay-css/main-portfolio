@@ -3,13 +3,8 @@
     { "src": "client/package.json", "use": "@vercel/static-build" }
   ],
   "routes": [
-    {
-      "src": "/(robots\\.txt|sitemap\\.xml)",
-      "dest": "/client/public/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
+    { "src": "/robots\\.txt", "dest": "client/public/robots.txt" },
+    { "src": "/sitemap\\.xml", "dest": "client/public/sitemap.xml" },
+    { "src": "/(.*)", "dest": "client/index.html" }
   ]
 }
