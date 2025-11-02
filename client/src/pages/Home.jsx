@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import heroImage from "../assets/image.webp"; // replace with your image
+import heroImage from "../assets/IMG_20251020_225014_025.webp"; // replace with your image
 import { NavLink } from "react-router-dom"
 
 const Home = () => {
