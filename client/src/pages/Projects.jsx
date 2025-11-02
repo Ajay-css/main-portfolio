@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import img from "../assets/image.webp";
+import img from "../assets/IMG_20251020_225014_025.webp";
 import p1 from "../assets/p-1.png";
 import p2 from "../assets/p-2.png";
 import p3 from "../assets/p-3.png";
